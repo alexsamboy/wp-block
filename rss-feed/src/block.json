@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "rss-feed/rss-feed",
+	"version": "0.1.0",
+	"title": "Rss Read Feed",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Lector de contenido de RSS para mostrar en tu sitio.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "rss-feed",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
